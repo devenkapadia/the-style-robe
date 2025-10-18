@@ -8,7 +8,7 @@ const About = () => {
       <p>At The Style Robe, we specialize in 🍀 Fashion, Wedding, and Personal Styling. Our mission is to help you express yourself through style that speaks volumes.</p>
       <p>📍 TheStyleRobe | Style that speaks</p>
       <p>📩 DM for styling collabs & bookings on Instagram. We're here to bring your fashion dreams to life!</p>
-      <a href="https://www.instagram.com/thestylerobe/" target="_blank" rel="noopener noreferrer" className="btn">
+      <a href="https://www.instagram.com/thestyle_robe/" target="_blank" rel="noopener noreferrer" className="btn">
         Visit Instagram
       </a>
     </section>
