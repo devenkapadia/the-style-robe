@@ -7,7 +7,7 @@ const Home = () => {
         <h1>✨ Curating dream looks for every occasion</h1>
         <p>🍀 Fashion | Wedding | Personal Styling</p>
         <a
-          href="https://www.instagram.com/thestylerobe/"
+          href="https://www.instagram.com/thestyle_robe/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
@@ -44,7 +44,7 @@ const Home = () => {
         <p>📍 TheStyleRobe | Style that speaks</p>
         <p>📩 DM for styling collabs & bookings on Instagram</p>
         <a
-          href="https://www.instagram.com/thestylerobe/"
+          href="https://www.instagram.com/thestyle_robe/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
