@@ -1,0 +1,388 @@
+{
+  "site": {
+    "name": "The Style Robe",
+    "fullName": "The Style Robe by H & S",
+    "tagline": "your forever, curated",
+    "description": "Turning your dream wedding into a beautiful reality",
+    "founders": ["Hirwa Patel", "Sanjana Upadhyay"]
+  },
+  "navigation": {
+    "links": [
+      { "id": "hero", "label": "Home", "href": "#hero" },
+      { "id": "about", "label": "About", "href": "#about" },
+      { "id": "services", "label": "Services", "href": "#services" },
+      { "id": "packages", "label": "Packages", "href": "#packages" },
+      { "id": "vendors", "label": "Vendors", "href": "#vendors" },
+      { "id": "gallery", "label": "Gallery", "href": "#gallery" },
+      { "id": "contact", "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "main": "THE STYLE ROBE",
+      "sub": "by H & S"
+    },
+    "subtitle": "your forever, curated",
+    "description": "Turning your dream wedding into a beautiful reality",
+    "cta": {
+      "primary": {
+        "text": "Book a Consultation",
+        "href": "#contact"
+      },
+      "secondary": {
+        "text": "View Packages",
+        "href": "#packages"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Meet the Visionaries Behind Your Perfect Day",
+    "description": "Founded by Hirwa Patel and Sanjana Upadhyay, The Style Robe is dedicated to transforming your wedding dreams into unforgettable realities. With a passion for detail and a commitment to excellence, we curate every element of your special day.",
+    "founders": [
+      {
+        "name": "Hirwa Patel",
+        "role": "Co-Founder & Creative Director"
+      },
+      {
+        "name": "Sanjana Upadhyay",
+        "role": "Co-Founder & Operations Lead"
+      }
+    ],
+    "mission": "Our mission is to create magical, stress-free wedding experiences that reflect your unique love story. From the first consultation to your last dance, we're with you every step of the way.",
+    "values": [
+      {
+        "title": "Personalized Approach",
+        "description": "Every wedding is unique, and so is our approach. We tailor our services to match your vision, style, and budget."
+      },
+      {
+        "title": "Curated Excellence",
+        "description": "We work with only the finest vendors and artisans, ensuring every detail meets our high standards."
+      },
+      {
+        "title": "Stress-Free Planning",
+        "description": "From timeline management to day-of coordination, we handle the details so you can enjoy the journey."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Wedding Planning & Event Management",
+    "items": [
+      {
+        "id": "planning",
+        "icon": "📋",
+        "title": "Complete Wedding Planning",
+        "description": "End-to-end planning services from concept to execution, ensuring every detail is perfect."
+      },
+      {
+        "id": "customization",
+        "icon": "✨",
+        "title": "Customized Weddings",
+        "description": "Weddings designed around your unique vision, style, and cultural traditions."
+      },
+      {
+        "id": "coordination",
+        "icon": "🎯",
+        "title": "Event Management",
+        "description": "Professional coordination for all wedding events - mehendi, sangeet, ceremony, and reception."
+      },
+      {
+        "id": "photography",
+        "icon": "📸",
+        "title": "Photography & Videography",
+        "description": "Coordination with top photographers and videographers to capture your precious moments."
+      },
+      {
+        "id": "catering",
+        "icon": "🍽️",
+        "title": "Catering & Hospitality",
+        "description": "Curated catering options and comprehensive guest hospitality planning."
+      },
+      {
+        "id": "decor",
+        "icon": "🌸",
+        "title": "Décor & Styling",
+        "description": "Stunning décor concepts from traditional to contemporary, tailored to your theme."
+      }
+    ]
+  },
+  "packages": [
+    {
+      "id": "day-of",
+      "name": "Day-Of Coordination",
+      "price": "₹15,000",
+      "popular": false,
+      "description": "For couples who've planned it themselves and just need a pro to bring it to life.",
+      "features": [
+        "Final vendor confirmations & timeline creation",
+        "On-site coordination (up to 10 hours)",
+        "Setup & décor supervision",
+        "Emergency kit & on-call support",
+        "Guest hospitality point-of-contact"
+      ],
+      "cta": "Get Started"
+    },
+    {
+      "id": "signature",
+      "name": "Signature Planning",
+      "price": "₹50,000",
+      "popular": true,
+      "description": "Hands-on support from planning to execution. You make the decisions, we handle the details.",
+      "features": [
+        "Everything in Day-Of Coordination",
+        "Vendor sourcing & negotiation (Venue, catering, décor)",
+        "Budget planning & tracking",
+        "Design consultation & mood boards",
+        "Photography & videography coordination",
+        "Unlimited planning calls/meetings"
+      ],
+      "cta": "Most Popular"
+    },
+    {
+      "id": "full-experience",
+      "name": "Full Wedding Experience",
+      "price": "Custom Quote",
+      "popular": false,
+      "description": "A complete, stress-free journey from your first idea to your last dance.",
+      "features": [
+        "Everything in Signature Planning",
+        "Full concept design & theme development",
+        "Complete vendor management (venue to florist)",
+        "Multi-day event planning (mehendi, sangeet, reception, etc.)",
+        "Guest travel & hospitality management",
+        "Personalized wedding website & invitations"
+      ],
+      "cta": "Contact Us"
+    },
+    {
+      "id": "a-la-carte",
+      "name": "À La Carte Services",
+      "price": "Custom Pricing",
+      "popular": false,
+      "description": "Pick what you need - priced individually.",
+      "features": [
+        "Photography & Videography Management",
+        "Catering & Guest Hospitality",
+        "Vendor Sourcing (per category)",
+        "Décor & Styling Consultation",
+        "Wedding Day Timeline & Run Sheet",
+        "RSVP & Guest List Management",
+        "Budget Planning & Tracking"
+      ],
+      "cta": "Customize"
+    }
+  ],
+  "vendors": {
+    "title": "Curated Vendor Recommendations",
+    "subtitle": "Work with the Best in the Industry",
+    "categories": [
+      {
+        "id": "makeup",
+        "name": "Make-up Artists",
+        "intro": "From timeless classics to modern glam - A look for every bride and groom",
+        "topPicks": [
+          { "name": "Salon 25", "artist": "Keta and Tulsi", "specialty": "Bridal Makeup" },
+          { "name": "Beauty Sensation", "artist": "Sona Motwani", "specialty": "HD Makeup" },
+          { "name": "Shweta's Beauty Care", "artist": "Shweta Panchal", "specialty": "Traditional Looks" },
+          { "name": "Blush", "artist": "Devanshi Patel", "specialty": "Modern Glam" },
+          { "name": "Beauty Town", "artist": "Payal Shah", "specialty": "Airbrush Makeup" }
+        ],
+        "exploreMore": [
+          "Sakhi Beauty Clinic",
+          "Make Up By Priyanka Chitte",
+          "Keya's Saloon",
+          "J C Bridal Studio",
+          "Krupa Beauty Clinic"
+        ]
+      },
+      {
+        "id": "fashion",
+        "name": "Fashion Designers & Brands",
+        "intro": "Because what you wear on your wedding day should be nothing short of extraordinary",
+        "topPicks": [
+          { "name": "Annu Patel", "role": "Fashion Designer", "specialty": "Custom Bridal Wear" },
+          { "name": "Asopalav", "role": "Clothing Brand", "specialty": "Traditional Attire" },
+          { "name": "Sheenal Patel", "role": "Fashion Designer", "specialty": "Contemporary Fusion" },
+          { "name": "Thakur G", "role": "Clothing Brand", "specialty": "Luxury Ethnic" },
+          { "name": "House of Gurwani", "role": "Fashion Designer", "specialty": "Designer Lehengas" }
+        ],
+        "exploreMore": [
+          "Bhakti Fashion Studio",
+          "Trina Ethnic Studio",
+          "Studio Suvastra by Krutika Shah",
+          "Prem and Sonali"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Décor & Theme Inspiration",
+    "subtitle": "Stunning Backdrops for Your Special Moments",
+    "seasonal": {
+      "title": "Seasonal Backdrops",
+      "intro": "Set the scene with the most sought-after backdrops of the season",
+      "items": [
+        {
+          "id": "floral-wall",
+          "title": "Floral and Greenery Wall",
+          "description": "A lush green tropical wall with palm motifs and garden seating",
+          "image": "/assets/backdrops/green.jpeg",
+          "tags": ["Modern", "Outdoor", "Garden"]
+        },
+        {
+          "id": "led-neon",
+          "title": "LED Neon Name Backdrop",
+          "description": "Forest setting with circular floral arch and personalized neon signage",
+          "image": "/assets/backdrops/led.jpg",
+          "tags": ["Contemporary", "Night", "Personalized"]
+        },
+        {
+          "id": "mirror",
+          "title": "Mirror and Reflection Backdrop",
+          "description": "Outdoor setup with vintage gold-framed mirrors and floral arrangements",
+          "image": "/assets/backdrops/mirror.jpeg",
+          "tags": ["Vintage", "Elegant", "Outdoor"]
+        },
+        {
+          "id": "mughal",
+          "title": "Royal Mughal Inspired Backdrop",
+          "description": "Regal indoor setup with green arched backdrop and traditional seating",
+          "image": "/assets/backdrops/mughal.jpeg",
+          "tags": ["Traditional", "Royal", "Indoor"]
+        }
+      ]
+    },
+    "timeless": {
+      "title": "Timeless Classics",
+      "intro": "Because sometimes the oldest traditions make the most beautiful memories",
+      "items": [
+        {
+          "id": "rustic",
+          "title": "Rustic Courtyard",
+          "description": "Wooden barn-style doors with flower garlands and romantic signage",
+          "image": "/assets/backdrops/rustic.avif",
+          "tags": ["Rustic", "Vintage", "Outdoor"]
+        },
+        {
+          "id": "banana-leaf",
+          "title": "The Banana Leaf Arch",
+          "description": "Traditional South Indian décor with banana leaves and brass vessels",
+          "image": "/assets/backdrops/banana.jpeg",
+          "tags": ["Traditional", "South Indian", "Cultural"]
+        },
+        {
+          "id": "candlelit",
+          "title": "Candlelit European Courtyard",
+          "description": "Sophisticated evening setup with intricate candle screens and plush seating",
+          "image": "/assets/backdrops/candle.jpeg",
+          "tags": ["Elegant", "Evening", "Romantic"]
+        },
+        {
+          "id": "mogra-rose",
+          "title": "Mogra & Rose Drape",
+          "description": "Seaside décor with traditional white mogra strings and red rose arrangements",
+          "image": "/assets/backdrops/mogra.jpeg",
+          "tags": ["Traditional", "Floral", "Outdoor"]
+        }
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Do you work with our existing vendors or source new ones?",
+      "answer": "We're flexible! We can work with vendors you've already chosen or help you source new ones from our curated network of trusted professionals."
+    },
+    {
+      "id": 2,
+      "question": "How does pricing work?",
+      "answer": "Pricing varies based on guest count, venue, season, and scope of services. We offer transparent pricing with no hidden fees. Book a free consultation to get a customized quote."
+    },
+    {
+      "id": 3,
+      "question": "Can we customize a package?",
+      "answer": "Absolutely! Our packages are flexible starting points. We can mix and match services or create a completely custom package based on your needs and budget."
+    },
+    {
+      "id": 4,
+      "question": "What makes TSR different from other planners?",
+      "answer": "Our personalized approach, curated vendor network, attention to detail, and commitment to making your planning journey enjoyable. We're not just planners - we're your partners in creating memories."
+    }
+  ],
+  "contact": {
+    "title": "Let's Create Your Perfect Day",
+    "subtitle": "Book a free consultation to discuss your wedding vision",
+    "description": "Ready to start planning? Get in touch with us today. We'd love to hear about your dream wedding and show you how we can bring it to life.",
+    "methods": [
+      {
+        "type": "phone",
+        "icon": "📞",
+        "label": "Call Us",
+        "value": "+91 9664922857",
+        "link": "tel:+919664922857",
+        "primary": true
+      },
+      {
+        "type": "phone",
+        "icon": "📞",
+        "label": "Alternate",
+        "value": "+91 8238238093",
+        "link": "tel:+918238238093",
+        "primary": false
+      },
+      {
+        "type": "email",
+        "icon": "📧",
+        "label": "Email Us",
+        "value": "stylerobe@gmail.com",
+        "link": "mailto:stylerobe@gmail.com",
+        "primary": true
+      },
+      {
+        "type": "instagram",
+        "icon": "📸",
+        "label": "Instagram",
+        "value": "@tsr_by_hs",
+        "link": "https://www.instagram.com/tsr_by_hs/",
+        "primary": true
+      },
+      {
+        "type": "whatsapp",
+        "icon": "💬",
+        "label": "WhatsApp",
+        "value": "Chat with us",
+        "link": "https://wa.me/919664922857",
+        "primary": true
+      }
+    ],
+    "cta": {
+      "primary": "Book Free Consultation",
+      "secondary": "View Our Work on Instagram"
+    },
+    "note": "Pricing varies based on guest count, venue, season, and scope of services. Book a free consultation to get your personalized quote."
+  },
+  "footer": {
+    "tagline": "your forever, curated",
+    "description": "Turning your dream wedding into a beautiful reality.",
+    "copyright": "© 2026 TSR - The Style Robe by H & S. All rights reserved.",
+    "social": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/tsr_by_hs/",
+        "icon": "instagram"
+      }
+    ],
+    "quickLinks": [
+      { "label": "About Us", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Packages", "href": "#packages" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "contact": {
+      "phone": ["+91 9664922857", "+91 8238238093"],
+      "email": "stylerobe@gmail.com"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Logo colors:
+Background color - #f8f5f0
+
+TSR font color - #c59444
+
+The Style Robe bye H & S color - #000000
+
+Horizontal line color - #c79947
+
+Theme line color - #000000
+
+Colors in brochure: 
+#73593b head font
+#eab38d design
+#c7984a font
+#eab38d background
+#9e8a70 font 
+#c2954e font
