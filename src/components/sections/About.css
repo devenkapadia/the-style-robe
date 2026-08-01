@@ -1,0 +1,96 @@
+#about .section-heading {
+  color: #c59444;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-description {
+  font-size: var(--text-lg);
+  color: var(--gray);
+  line-height: var(--leading-relaxed);
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.founder-card {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: var(--gradient-light);
+  border-radius: var(--radius-xl);
+  border: 2px solid var(--primary-light);
+}
+
+.founder-name {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: #c59444;
+  margin-bottom: var(--spacing-xs);
+}
+
+.founder-role {
+  font-size: var(--text-base);
+  color: var(--primary);
+  font-weight: var(--font-medium);
+}
+
+.about-mission {
+  font-size: var(--text-lg);
+  color: var(--gray-dark);
+  line-height: var(--leading-relaxed);
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: var(--background);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--primary);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.value-card {
+  padding: var(--spacing-lg);
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-base);
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.value-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+  color: var(--primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.value-description {
+  color: var(--gray);
+  line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 768px) {
+  .founders-grid,
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Made with Bob */

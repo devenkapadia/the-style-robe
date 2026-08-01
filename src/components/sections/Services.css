@@ -1,0 +1,52 @@
+#services .section-heading {
+  color: #c59444;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-2xl);
+}
+
+.service-card {
+  text-align: center;
+  padding: var(--spacing-xl);
+  transition: all var(--transition-base);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  display: inline-block;
+  transition: transform var(--transition-base);
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+}
+
+.service-title {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: #c59444;
+  margin-bottom: var(--spacing-sm);
+}
+
+.service-description {
+  color: var(--gray);
+  line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}
+
+/* Made with Bob */

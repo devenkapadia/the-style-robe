@@ -1,0 +1,65 @@
+.section {
+  position: relative;
+  width: 100%;
+}
+
+/* Padding Variants */
+.section-padding-default {
+  padding: var(--spacing-3xl) 0;
+}
+
+.section-padding-sm {
+  padding: var(--spacing-2xl) 0;
+}
+
+.section-padding-lg {
+  padding: calc(var(--spacing-3xl) * 1.5) 0;
+}
+
+.section-padding-none {
+  padding: 0;
+}
+
+/* Background Variants */
+.section-white {
+  background-color: var(--white);
+}
+
+.section-gray {
+  background-color: var(--background);
+}
+
+.section-gradient {
+  background: var(--gradient-primary);
+  color: var(--white);
+}
+
+.section-gradient h2,
+.section-gradient h3,
+.section-gradient p {
+  color: var(--white);
+}
+
+.section-primary {
+  background: var(--gradient-primary);
+  color: var(--white);
+}
+
+.section-primary h2,
+.section-primary h3,
+.section-primary p {
+  color: var(--white);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-padding-default {
+    padding: var(--spacing-2xl) 0;
+  }
+  
+  .section-padding-lg {
+    padding: var(--spacing-3xl) 0;
+  }
+}
+
+/* Made with Bob */

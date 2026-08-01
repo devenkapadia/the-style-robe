@@ -1,0 +1,72 @@
+.card {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-base);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-2xl);
+}
+
+/* Card Header */
+.card-header {
+  margin-bottom: var(--spacing-md);
+}
+
+.card-title {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: var(--dark);
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-subtitle {
+  font-size: var(--text-sm);
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Card Body */
+.card-body {
+  color: var(--gray);
+  line-height: var(--leading-relaxed);
+}
+
+/* Card Footer */
+.card-footer {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--gray-light);
+}
+
+/* Card Variants */
+.card-gradient {
+  background: var(--gradient-light);
+  border: 1px solid var(--primary-light);
+}
+
+.card-bordered {
+  border: 2px solid var(--gray-light);
+  box-shadow: none;
+}
+
+.card-bordered:hover {
+  border-color: var(--primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    padding: var(--spacing-md);
+  }
+  
+  .card-title {
+    font-size: var(--text-xl);
+  }
+}
+
+/* Made with Bob */

@@ -1,0 +1,150 @@
+#vendors .section-heading {
+  color: #c59444;
+}
+
+
+.vendors-categories {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl);
+}
+
+.vendor-category {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.vendor-category-title {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  color: var(--primary);
+  margin-bottom: var(--spacing-sm);
+  text-align: center;
+}
+
+.vendor-category-intro {
+  font-size: var(--text-lg);
+  color: var(--gray);
+  text-align: center;
+  font-style: italic;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.vendor-section-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-semibold);
+  color: #000000;
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.vendor-card {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: var(--gradient-light);
+  border: 1px solid var(--primary-light);
+}
+
+.vendor-name {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  color: var(--dark);
+  margin-bottom: var(--spacing-xs);
+}
+
+.vendor-artist {
+  font-size: var(--text-base);
+  color: var(--primary);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--spacing-xs);
+}
+
+.vendor-specialty {
+  font-size: var(--text-sm);
+  color: var(--gray);
+}
+
+.vendor-explore-more {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 2px solid var(--gray-light);
+}
+
+.explore-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  width: 100%;
+  padding: var(--spacing-md);
+  background: var(--white);
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-lg);
+  color: var(--primary);
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.explore-toggle:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.toggle-icon {
+  font-size: var(--text-sm);
+  transition: transform var(--transition-base);
+}
+
+.explore-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: var(--background);
+  border-radius: var(--radius-lg);
+}
+
+.explore-item {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--white);
+  border-radius: var(--radius-md);
+  color: #9e8a70;
+  font-size: var(--text-sm);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.explore-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .vendor-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+  .explore-list {
+    grid-template-columns: 1fr;
+  }
+
+  .vendor-category {
+    padding: var(--spacing-xl);
+  }
+}
+
+/* Made with Bob */
