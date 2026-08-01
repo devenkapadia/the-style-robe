@@ -12,7 +12,6 @@
       { "id": "about", "label": "About", "href": "#about" },
       { "id": "services", "label": "Services", "href": "#services" },
       { "id": "packages", "label": "Packages", "href": "#packages" },
-      { "id": "vendors", "label": "Vendors", "href": "#vendors" },
       { "id": "gallery", "label": "Gallery", "href": "#gallery" },
       { "id": "contact", "label": "Contact", "href": "#contact" }
     ]
